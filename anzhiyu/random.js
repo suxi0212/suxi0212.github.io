@@ -1,1 +1,1 @@
-var posts=["2023/08/06/Vue3+TS第一章/","2023/08/20/面试题/","2023/08/15/Vue3+TS第二章/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["2023/08/06/Vue3+TS第一章/","2023/08/15/Vue3+TS第二章/","2023/08/20/面试题/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
