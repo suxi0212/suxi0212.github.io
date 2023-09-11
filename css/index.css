@@ -7729,26 +7729,29 @@ body[data-type="music"] .s-sticker div {
   z-index: 2;
 }
 #anMusic-page #anMusicBtnGetSong {
-  right: 11vw;
+  right: 6vw;
+  bottom: 16vh;
 }
 #anMusic-page #anMusicRefreshBtn {
-  right: 7vw;
+  right: 6vw;
+  bottom: 8vh;
 }
 #anMusic-page #anMusicSwitching {
-  right: 15vw;
+  right: 6vw;
+  bottom: 24vh;
 }
 @media screen and (max-width: 768px) {
   #anMusic-page div#anMusicBtnGetSong {
-    right: 80px;
-    bottom: 150px;
+    right: 5px;
+    bottom: 265px;
   }
   #anMusic-page div#anMusicRefreshBtn {
-    right: 20px;
+    right: 5px;
     bottom: 150px;
   }
   #anMusic-page div#anMusicSwitching {
-    right: 140px;
-    bottom: 150px;
+    right: 5px;
+    bottom: 205px;
   }
 }
 #anMusic-page meting-js .aplayer {
@@ -7832,7 +7835,8 @@ body[data-type="music"] .s-sticker div {
   margin: auto;
   left: 0;
   right: 0;
-  bottom: 50px;
+  bottom: 7px;
+  z-index: 999;
 }
 #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-bar-wrap {
   margin: 0 160px 0 150px;
